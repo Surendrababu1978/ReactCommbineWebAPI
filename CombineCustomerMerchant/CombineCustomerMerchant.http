@@ -1,0 +1,15 @@
+@CombineCustomerMerchant_HostAddress = http://localhost:5150
+
+GET {{CombineCustomerMerchant_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{CombineCustomerMerchant_HostAddress}}/api/customer
+Content-Type: application/json
+
+{
+  //Customer
+}
+
+###
